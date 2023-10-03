@@ -151,3 +151,11 @@ a:hover,
 a:visited:hover {
   color: var(--bright-blue);
 }
+
+.error-output {
+  margin: 5px 0;
+  padding: 0;
+  color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
