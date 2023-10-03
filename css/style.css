@@ -11,6 +11,7 @@
   --off-white: #FAF9F6;
   --platinum: #e5e4e273;
   --bright-blue: #0096FF;
+  --apricot: #FBCEB1;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
 
 header {
   width: 40vw;
-  height: 135vh;
+  height: 155vh;
   background-image: url("../images/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg");
   background-size: cover;
   display: flex;
@@ -119,4 +120,33 @@ main {
 
 .form-inputs .error {
   border: 1px solid crimson;
+}
+
+.form-footer {
+  height: 55vh;
+  padding: 30px 50px;
+}
+
+.form-footer button {
+  padding: 15px 80px;
+  background-color: var(--apricot);
+  color: var(--matte-black);
+  border: none;
+  border-radius: 5px;
+  font-family: "Skranji", "Titillium Web", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.form-footer a {
+  color: var(--apricot);
+}
+
+.form-footer a:visited {
+  color: var(--light-blue);
+}
+
+a:hover,
+a:visited:hover {
+  color: var(--bright-blue);
 }
